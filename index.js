@@ -16,7 +16,7 @@ dotenv.config()
 
 app.use(express.json());
 app.use(cors({
-    origin:['http://localhost:3000'],
+    origin:['https://main--astounding-pasca-842d51.netlify.app'],
     credentials:true
 }))
 
